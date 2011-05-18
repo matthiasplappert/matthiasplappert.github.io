@@ -127,3 +127,10 @@ h2 {
         margin: -222px 0 0 -169px;
     }
 }
+
+/* iPhone */
+@media only screen and (device-width: 320px) {
+    #wrapper {
+    	margin-top: 0px;
+    }
+}
