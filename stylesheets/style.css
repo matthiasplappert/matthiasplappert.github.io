@@ -117,3 +117,17 @@ h2 {
 #social p a:hover {
 	opacity: 0.8;
 }
+
+/* iPad portrait */
+@media only screen and (device-width: 768px) and (orientation:portrait) {
+    #wrapper {
+    	margin: 108px 0 0;
+    }
+}
+
+/* iPad landscape */
+@media only screen and (device-width: 768px) and (orientation:landscape) {
+    #wrapper {
+    	margin: 236px 0 0;
+    }
+}
