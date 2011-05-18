@@ -1,0 +1,114 @@
+@import url('reset.css');
+
+html, body {
+	font-family: "Helvetica Neue", Helvetica, Verdana, sans-serif;
+	background: url('../images/background.png') repeat;
+}
+
+#wrapper {
+	width: 320px; /* 320 */
+	height: 426px; /* 426 */
+	padding: 9px;
+	margin: 150px auto;
+	background: url('../images/wood_background.png') no-repeat;
+}
+
+header {
+	margin: 21px 0 14px;
+}
+
+hgroup {
+	margin: -9px 0 14px;
+	text-align: center;
+	color: #000;
+	text-shadow: rgba(255,255,255,0.8) 0 1px 0;
+	opacity: 0.6;
+}
+
+h1 {
+	font-size: 35px;
+}
+
+h1 strong {
+	font-weight: 500;
+}
+
+h2 {
+	font-size: 14px;
+	margin-top: 5px;
+}
+
+#social ul {
+    margin: 0 21px;
+}
+
+#social ul li {
+	float: left;
+	padding-right: 17px;
+	height: 44px; /* +1px for margin */
+}
+
+#social ul li:last-child {
+	padding-right: 0;
+}
+
+#social ul li a, #social ul li a:visited {
+	display: block;
+	width: 42px;
+	height: 43px;
+	background-repeat: no-repeat;
+	opacity: 0.7;
+	-webkit-transition: opacity .25s ease-in-out;
+	-moz-transition: opacity .25s ease-in-out;
+}
+
+#social ul li a:hover {
+	opacity: 1.0;
+}
+
+#social ul li a:active {
+	margin-top: 1px;
+}
+
+#social ul li.flickr a {
+	background-image: url('../images/social_flickr.png');
+}
+
+#social ul li.forrst a {
+	background-image: url('../images/social_forrst.png');
+}
+
+#social ul li.gowalla a {
+	background-image: url('../images/social_gowalla.png');
+}
+
+#social ul li.lastfm a {
+	background-image: url('../images/social_lastfm.png');
+}
+
+#social ul li.twitter a {
+	background-image: url('../images/social_twitter.png');
+}
+
+#social ul li a span {
+	display: none;
+}
+
+#social p {
+	padding-top: 17px;
+	clear: both;
+	text-align: center;
+	font-size: 14px;
+}
+
+#social p a {
+	color: #1b0f09;
+	text-shadow: rgba(255,253,224,0.2) 0 1px 0;
+	opacity: 0.6;
+	-webkit-transition: opacity .25s ease-in-out;
+	-moz-transition: opacity .25s ease-in-out;
+}
+
+#social p a:hover {
+	opacity: 0.8;
+}
