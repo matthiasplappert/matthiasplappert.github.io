@@ -118,16 +118,12 @@ h2 {
 	opacity: 0.8;
 }
 
-/* iPad portrait */
-@media only screen and (device-width: 768px) and (orientation:portrait) {
+/* iPad */
+@media only screen and (device-width: 768px) {
     #wrapper {
-    	margin: 236px auto 0;
-    }
-}
-
-/* iPad landscape */
-@media only screen and (device-width: 768px) and (orientation:landscape) {
-    #wrapper {
-    	margin: 108px auto 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin: -169px 0 0 -222px;
     }
 }
