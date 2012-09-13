@@ -1,47 +1,39 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>Matthias Plappert</title>
-    
-    <!--
-        Awesome wood texture by Matthew Skiles: http://dribbble.com/shots/31901-Hand-Crafted-Wood-Texture?page=1
-        Awesome social icons by Umar Irshad http://dribbble.com/shots/113249-Social-Icons-PSD
-        
-        You can view the whole source code on github: https://github.com/matthiasplappert/matthiasplappert.github.com
-        Please don't steal, though.
-    -->
-    
-    <meta name="description" content="Digital card of Matthias Plappert">
-    <meta name="author" content="Matthias Plappert">
-    <meta name="keywords" content="matthias, plappert, ios, iphone, ipad, mac, developer, phaps, card, personal">
-    <meta name="viewport" content="width=device-width,maximum-scale=1.0,initial-scale=1.0">
-    
-    <link rel="stylesheet" href="stylesheets/style.css">
-  </head>
+<head>
+  <meta charset="utf-8">
+  <title>Matthias Plappert</title>
   
-  <body>
-    <div id="wrapper">
-      <header>
-        <hgroup>
-          <h1>Matthias Plappert</h1>
-          <h2>&mdash; iOS &amp; MAC DEVELOPER &mdash;</h2>
-        </hgroup>
-        <img src="images/portrait.png" alt="That's me">
-      </header>
-      
-      <section id="social">
-        <ul>
-          <li class="twitter"><a href="http://twitter.com/mplappert"><span>Twitter</span></a></li>
-          <li class="flickr"><a href="http://www.flickr.com/photos/mplappert/"><span>Flickr</span></a></li>
-          <li class="forrst"><a href="http://forrst.com/people/mplappert"><span>Forrst</span></a></li>
-          <li class="gowalla"><a href="http://gowalla.com/users/mplappert"><span>Gowalla</span></a></li>
-          <li class="lastfm"><a href="http://www.last.fm/user/matzeIp"><span>last.fm</span></a></li>
-        </ul>
+  <meta name="viewport" content="width=700">
+  <meta name="description" content="Digital card of Matthias Plappert, an iOS and Mac OS X software engineer.">
+
+  <link rel="stylesheet" href="stylesheets/style.css" type="text/css">
+  
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script type="text/javascript">
+  $(document).ready( function () {
+      $('#container').css({'opacity': 0.0});
+      $('#container').animate({opacity: 1.0}, {duration: 1000});
+  });
+  </script>
+</head>
+
+<body>
+  <div id="container">
+    <div id="box">
+      <div id="avatar">
+        <img src="images/avatar.png" alt="Matthias Plappert">
+      </div>
+      <div id="content">
+        <h1>Matthias Plappert</h1>
+        <h2>iOS and Mac OS X Software Engineer</h2>
+        
         <p>
-          <a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#109;&#097;&#116;&#116;&#104;&#105;&#097;&#115;&#112;&#108;&#097;&#112;&#112;&#101;&#114;&#116;&#064;&#109;&#101;&#046;&#099;&#111;&#109;">… or write me a good old email.</a>
+          <a class="email" href="&#109;&#097;&#105;&#108;&#116;&#111;:&#109;&#097;&#116;&#116;&#104;&#105;&#097;&#115;&#112;&#108;&#097;&#112;&#112;&#101;&#114;&#116;&#064;&#109;&#101;&#046;&#099;&#111;&#109;">&#109;&#097;&#116;&#116;&#104;&#105;&#097;&#115;&#112;&#108;&#097;&#112;&#112;&#101;&#114;&#116;&#064;&#109;&#101;&#046;&#099;&#111;&#109;</a>
+          <a class="twitter" href="http://twitter.com/mplappert">@mplappert</a>
         </p>
-      </section>
+      </div>
     </div>
-  </body>
+  </div>
+</body>
 </html>

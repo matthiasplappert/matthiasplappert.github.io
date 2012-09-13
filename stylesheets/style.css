@@ -1,137 +1,111 @@
 @import url('reset.css');
+@import url('http://fonts.googleapis.com/css?family=Maven+Pro');
 
-html {
-	width: 100%;
-	height: 100%;
+
+/* General */
+html, body {
+	background-color: #f5f5f5;
 	-webkit-font-smoothing: antialiased;
 }
 
-html, body {
-	font-family: "Helvetica Neue", Helvetica, Verdana, sans-serif;
-	background: url('../images/background.png') repeat;
+body {
+    font-family: "Maven Pro", "Lucida Grande", Helvetica, Verdana, sans-serif;
+	color: #5f5f5f;
 }
 
-#wrapper {
-	width: 320px;
-	height: 426px;
-	padding: 9px;
-	margin: 150px auto 0;
-	background: url('../images/wood_background.png') no-repeat;
-}
-
-header {
-	margin: 21px 0 14px;
-}
-
-hgroup {
-	margin: -9px 0 14px;
-	text-align: center;
-	color: #000;
-	text-shadow: rgba(255,255,255,0.8) 0 1px 0;
-	opacity: 0.6;
-}
-
-h1 {
-	font-size: 35px;
-}
-
-h1 strong {
-	font-weight: 500;
-}
-
-h2 {
-	font-size: 14px;
-	margin-top: 5px;
-}
-
-#social ul {
-    margin: 0 21px;
-}
-
-#social ul li {
-	float: left;
-	padding-right: 17px;
-	height: 44px; /* +1px for margin */
-}
-
-#social ul li:last-child {
-	padding-right: 0;
-}
-
-#social ul li a, #social ul li a:visited {
+#container {
+	width: 100%;
+	position: absolute;
+	top: 50%;
+	margin: -121px 0 0 0;
 	display: block;
-	width: 42px;
-	height: 43px;
-	background-repeat: no-repeat;
-	opacity: 0.7;
-	-webkit-transition: opacity .25s ease-in-out;
-	-moz-transition: opacity .25s ease-in-out;
 }
 
-#social ul li a:hover {
-	opacity: 1.0;
+#box {
+	width: 660px;
+	height: 242px;
+	padding: 0px;
+	margin: 0 auto;
+	background-color: #fff;
+	box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
 }
 
-#social ul li a:active {
-	margin-top: 1px;
+#avatar {
+	width: 208px;
+	height: 208px;
+	margin: 34px 0 0 34px;
+	float: left;
 }
 
-#social ul li.flickr a {
-	background-image: url('../images/social_flickr.png');
+#avatar img {
+	width: 208px;
+	height: 208px;
+	border: none;
+	display: block;
 }
 
-#social ul li.forrst a {
-	background-image: url('../images/social_forrst.png');
+@media screen and (-webkit-min-device-pixel-ratio: 2) {
+	#avatar {
+		background-image: url('../images/avatar@2x.png');
+		-webkit-background-size: 208px 208px;
+	}
+	
+	#avatar img {
+		display: none;
+	}
 }
 
-#social ul li.gowalla a {
-	background-image: url('../images/social_gowalla.png');
+#content {
+	width: 350px;
+	margin: 72px 34px 0 34px;
+	float: right;
 }
 
-#social ul li.lastfm a {
-	background-image: url('../images/social_lastfm.png');
+#content h1 {
+	font-size: 43px;
+	text-align: center;
+	margin-top: -10px;
 }
 
-#social ul li.twitter a {
-	background-image: url('../images/social_twitter.png');
+#content h2 {
+	font-size: 18px;
+	/*letter-spacing: 1pt;*/
+	text-align: center;
+	margin: 0 0 20px 0;
 }
 
-#social ul li a span {
+#content p {
+	font-size: 16px;
+	text-align: center;
+}
+
+#content a, #contenta:visited {
+	color: #196cb1;
+	padding: 0 5px;
+	-webkit-transition: color 0.3s ease-in-out 0s;
+}
+
+#content a:hover, #content a:active {
+	color: #4797d9;
+}
+
+/*@media screen and (-webkit-min-device-pixel-ratio: 2) {
+	#teaser h1 {
+		background-image: url('../images/logo@2x.png');
+		-webkit-background-size: 102px 102px;
+	}
+}
+
+#teaser h1 span {
 	display: none;
 }
 
-#social p {
-	padding-top: 17px;
-	clear: both;
-	text-align: center;
-	font-size: 14px;
-}
-
-#social p a {
-	color: #1b0f09;
-	text-shadow: rgba(255,253,224,0.2) 0 1px 0;
-	opacity: 0.6;
-	-webkit-transition: opacity .25s ease-in-out;
-	-moz-transition: opacity .25s ease-in-out;
-}
-
-#social p a:hover {
-	opacity: 0.8;
-}
-
-/* iPad */
-@media only screen and (device-width: 768px) {
-    #wrapper {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        margin: -222px 0 0 -169px;
-    }
-}
-
-/* iPhone */
-@media only screen and (device-width: 320px) {
-    #wrapper {
-    	margin-top: 0px;
-    }
-}
+#teaser p {
+	width: 490px;
+	height: 102px;
+	margin: 21px 0 0;
+	display: block;
+	float: right;
+	font-size: 18px;
+	line-height: 30px;
+}*/
