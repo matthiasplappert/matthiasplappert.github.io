@@ -59,6 +59,7 @@ body {
 	width: 350px;
 	margin: 72px 34px 0 34px;
 	float: right;
+	font-size: 14px;
 }
 
 #content h1 {
@@ -74,17 +75,25 @@ body {
 	margin: 0 0 20px 0;
 }
 
-#content p {
-	font-size: 14px;
-	text-align: center;
-}
-
-#content a, #contenta:visited {
+#content a, #content a:visited {
 	color: #196cb1;
-	padding: 0 5px;
 	-webkit-transition: color 0.3s ease-in-out 0s;
 }
 
 #content a:hover, #content a:active {
 	color: #4797d9;
+}
+
+#contact {
+	text-align: center;
+}
+
+#contact a {
+	padding: 0 5px;
+}
+
+#crypto {
+	margin-top: 20px;
+	font-size: 12px;
+	opacity: 0.7;
 }
