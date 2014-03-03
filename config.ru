@@ -1,6 +1,9 @@
+require 'rack-www'
+
 use Rack::Static,
   :urls => ["/images", "/js", "/css", "/downloads"],
   :root => "public"
+use Rack::WWW, :www => false
 
 run lambda { |env|
   [
