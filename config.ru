@@ -1,7 +1,7 @@
 require 'rack-www'
 
 use Rack::Static,
-  :urls => ["/images", "/js", "/css", "/downloads"],
+  :urls => ["/images", "/js", "/css", "/downloads", "/.well-known"],
   :root => "public"
 use Rack::WWW, :www => false
 

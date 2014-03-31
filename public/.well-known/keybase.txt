@@ -1,0 +1,65 @@
+==================================================================
+https://keybase.io/mplappert
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://matthiasplappert.com
+  * I am mplappert (https://keybase.io/mplappert) on keybase.
+  * I have a public key with fingerprint BC81 5B1C 87B4 4B43 9C1D  3811 20F2 600F 217E C448
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "bc815b1c87b44b439c1d381120f2600f217ec448",
+            "host": "keybase.io",
+            "key_id": "20F2600F217EC448",
+            "uid": "c05c32dde5c2a68f552586a1f4f93200",
+            "username": "mplappert"
+        },
+        "service": {
+            "hostname": "matthiasplappert.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1396255428,
+    "expire_in": 157680000,
+    "prev": "189f7bd93cef2e6f492850655ffa652c2c1ac1772ad90c355ec9f5f00b8a8be0",
+    "seqno": 3,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG/MacGPG2 v2.0.22 (Darwin)
+Comment: GPGTools - https://gpgtools.org
+
+owE1kV9IFEEYwO+01A7SSCqoBN2LQjHZnd3Z2z0xjfwXRiKJ9KCdu7Oz56Z3u92t
+5p/OQoKUhCRDKIukIhU8ygdTEDLMFPqrBlaUJPRQD6EmoVYPNms5DzPMN7/v930z
+07Y10uawJy6VxyU1juXbXzz5LdtOiCnPGihZV+oodwNVidcXVfN7ccAIaH6TclMy
+EhgoM0hwyRwnc6yIGIUVGAbQKuBpMjEujDhOoFKpCj1oZRCNLAVxmqaTGNl4NIVE
+AZ1r8bmEzznyj69eP0A0RCxQFAwRkHhBhRBAgZcYlVNFFtC0BQZxwC/5MKF9RpVk
+GDhgUqFUioRrNIStpq3aG4hkmhWaFNwg05DuIxIjoJs60qsIUWGahtsSmHWGlXEW
+y57/Lo+s+RXyACShBgeCmu6n3AwhkalZcoYVeQAhB4RUCtcaWgB7NIuALl6gybDK
+4BqiZARRdcmKyCKsAsyrnAgESPMQqqrEQ4AAYiTEuFxAUkQasRBiJKpQpWlZkAQZ
+W7cO4jN+nXKzpE3JS5RBzeuXzOoApkIt9r2bbHaHLWpzhPWFNseWbRsfu/Yheu34
+5K6G7OiKuIFmp0MIl3UW/ej7OPizvuCWZ7Q3qyQBfY8sOBVztKkSrFARc+letXEo
+FhVmdFRPrT38es8ZM74vdPp64+ru7g4ZhkMz6XxGd2i8tDJh+6d8uW1qdkehcbmp
+dOcXp7/4Qvf75be912qHo941X+kEi1ffvB558LIj5XF1W8PI+fs3XXfybkTNOdon
+x/LilycSunqeZyYPxg/vX704c7IWtM4PtZbUr/Brxc2xnxeOJbYsbwvfNg79Ovzo
+bvvBaW4gedE3WlRop7OcOXtmD0zX+jLL+vpfqdrCRMpS1+jgOZqZhuFLef1Ky7zz
+6beR4j/lyT1V2Tl9SX8B
+=SDzL
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/mplappert
+
+==================================================================
