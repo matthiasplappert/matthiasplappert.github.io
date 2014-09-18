@@ -65,14 +65,8 @@ body {
 #content h1 {
 	font-size: 43px;
 	text-align: center;
-	margin-top: -10px;
+	margin: -10px 0 40px 0;
 	font-family: "Maven Pro", "Lucida Grande", Helvetica, Verdana, sans-serif;
-}
-
-#content h2 {
-	font-size: 19px;
-	text-align: center;
-	margin: 0 0 20px 0;
 }
 
 #content a, #content a:visited {
