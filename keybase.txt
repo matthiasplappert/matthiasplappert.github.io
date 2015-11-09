@@ -1,0 +1,73 @@
+==================================================================
+https://keybase.io/mplappert
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://matthiasplappert.com
+  * I am mplappert (https://keybase.io/mplappert) on keybase.
+  * I have a public key with fingerprint BC81 5B1C 87B4 4B43 9C1D  3811 20F2 600F 217E C448
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "client": {
+            "name": "keybase.io node.js client",
+            "version": "0.8.23"
+        },
+        "key": {
+            "eldest_kid": "0101e2358d97c78fad25a13b2046ce68b7852a5a32333db050965541fb35ef33c4970a",
+            "fingerprint": "bc815b1c87b44b439c1d381120f2600f217ec448",
+            "host": "keybase.io",
+            "key_id": "20f2600f217ec448",
+            "kid": "0101e2358d97c78fad25a13b2046ce68b7852a5a32333db050965541fb35ef33c4970a",
+            "uid": "c05c32dde5c2a68f552586a1f4f93200",
+            "username": "mplappert"
+        },
+        "service": {
+            "hostname": "matthiasplappert.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1447061349,
+    "expire_in": 157680000,
+    "prev": "18d506789f694a2504814c5032868f95bfe82d9c1e29b0a98be87bf04afc7264",
+    "seqno": 6,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v1
+Comment: GPGTools - https://gpgtools.org
+
+owGtkltsDUEYx09Li9Ic90o0croPLklzzM7O7M6eRpx6qkTQSHggTmdmZ0+353T3
+2LNK01Qjgrg8eCBERIUGUUJdiggRqRAkGqGKRIlLQghxrbvdpk1IPJqHyWTm9/2/
+//d9s6VwUKggJ/KuKlyyqqMi5/oLFloYT4oGiTlGvRRrkHjaErYXnGxaK6SYlBL1
+jGZF1HIitmOIaE020s+USnXCzVqO7VMgSqJQkRpLAz6IFmlDZL1EyjKCVxnIAiqY
+GLrGNWJSA2IqKwwCpHKhEqYRDCmmClQUxWAAA13FGMkmU7AwFYUjXQPUT2hadlK4
+GdcKLEqMExkzmRONIcSQonPZUIgsQ2BCFfibrAmOEPEDq52s91cxUp/TRJ+9f/D/
+2ffyPjkOMFegYQjMIVWJiTHERKWyiUxdgQAEYFa4/Y2vzaRpJiNcL+iqf11ncRF0
+NihlAKGeV23R7AAZ5U6tL5JxHc/hTtonqj0vEwsEvPpMELFCsES/VoJZtmHtsZN/
+DlL2Ue5ZgbqMkAZUWUF6qSRWZixXJKyAwJpKgL+CPKLO15SJgYGqEd1UdUQhBojI
+iGOgQOIXqWNmCgINfzgC6gxQnTDhT8wEiJpcgyqSgvKW2Y4UU32fNOlLZq2kTb3l
+rpAaN+QUDw7lFITy83KDnxoqGDZy4PveoEN+aqPGFBfHHlReDz9qnnJ09ND9gzdf
+Nhrw490jD26c2wk78nZ2PduHFow4cKK1e/3Qb8MqHuadS01+sWjcycr2zlPdPP55
+TWTixxvTil4+qrl6vzySnNu+5HTx+JZZ1tLFXYWvGm+GJuya2fo6XJYfx8d6rnS/
+ufuqufypOraEJX+BeU2TNrsfnhdt69ra8uvWiabeq7i35dAT+8fkQZsmFaW+lHVV
+6FVjp7YP731QebjRK6Fnw7nhezWdas/bC9/LLrmH9hRu99adnz7nIpr5Nf7po1o9
+X8wub5uxf8eII3cmvozn28ffXtM/v1+TCvXMW5tWE4t3t53Bsaay2/benXrzybYZ
+q38D
+=ApGk
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/mplappert
+
+==================================================================
