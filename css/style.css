@@ -1,130 +1,104 @@
-@import url('reset.css');
 @import url('https://fonts.googleapis.com/css?family=Maven+Pro');
 
-
-/* General */
 html, body {
-	background-color: #f5f5f5;
-	-webkit-font-smoothing: antialiased;
+    background-color: #f5f5f5;
+    -webkit-font-smoothing: antialiased;
 }
 
 body {
-	font-family: "Lucida Grande", Helvetica, Verdana, sans-serif;
-	color: #5f5f5f;
+    font-family: "Lucida Grande", Helvetica, Verdana, sans-serif;
+    color: #5f5f5f;
 }
 
-#container {
-	width: 660px;
-	margin: 100px auto 0;
-	display: block;
-	background-color: #fff;
-	box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Maven Pro", "Lucida Grande", Helvetica, Verdana, sans-serif;
 }
 
-#box {
-	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+.container {
+    background-color: #fff;
+    max-width: 700px;
 }
 
-#content {
-	padding: 10px;
-	font-size: 14px;
+.row {
+    padding: 0 20px;
 }
 
-#content h2 {
-	font-size: 24px;
-	text-align: left;
-	font-family: "Maven Pro", "Lucida Grande", Helvetica, Verdana, sans-serif;
-	padding: 10px 0 10px;
+.header {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 20px 0px 0;
+    padding-top: 20px;
 }
 
-#content ul {
-	margin-left: 20px;
+.header p {
+    text-align: justify;
 }
 
-#content ul li {
-	list-style: square;
-	list-style-position: outside;
-	margin-bottom: 10px;
+.avatar {
+    text-align: center;
 }
 
-strong {
-	font-weight: bold;
+ul {
+    padding-left: 20px;
 }
 
-em {
-	font-style: italic;
+ul li {
+    list-style: square;
 }
 
-a, a:visited {
-	color: #196cb1;
-	-webkit-transition: color 0.3s ease-in-out 0s;
+.contact {
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 20px;
 }
 
-a:hover, a:active {
-	color: #4797d9;
+.contact ul {
+    margin: 0 auto;
+    padding: 0;
 }
 
-#avatar {
-	width: 208px;
-	height: 208px;
-	margin: 34px 0 0 34px;
-	float: left;
+.contact li {
+    display: inline-block;
+    padding: 0 10px;
+    border-right: 1px solid #ccc;
 }
 
-#avatar img {
-	width: 208px;
-	height: 208px;
-	border: none;
-	display: block;
+.contact li:first-child {
+    padding-left: 0px;
 }
 
-@media screen and (-webkit-min-device-pixel-ratio: 2) {
-	#avatar {
-		background-image: url('../images/avatar@2x.png');
-		-webkit-background-size: 208px 208px;
-	}
-	
-	#avatar img {
-		display: none;
-	}
+.contact li:last-child {
+    border-right: none;
+    padding-right: 0px;
 }
 
-#header {
-	width: 338px;
-	margin: 72px 40px 0 40px;
-	float: right;
-	font-size: 14px;
+@media (max-width: 320px) {
+    .header .contact {
+        font-size: 13px;
+    }
 }
 
-#header h1 {
-	font-size: 43px;
-	text-align: left;
-	margin-top: -10px;
-	margin-left: -2px;
-	font-family: "Maven Pro", "Lucida Grande", Helvetica, Verdana, sans-serif;
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+    }
+
+    .avatar {
+        border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    }
+
+    h1 {
+        text-align: center;
+    }
 }
 
-#contact {
-	margin: 0 auto;
-}
+@media (min-width: 768px) {
+    .container {
+        margin-top: 100px;
+        box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+    }
 
-#contact li {
-	display: inline-block;
-	padding: 0 10px;
-	border-right: 1px solid #ccc;
-}
-
-#contact li:last-child {
-	border-right: none;
-}
-
-#summary {
-	padding: 10px 0 20px;
-	line-height: 1.4;
-}
-
-#crypto {
-	margin-top: 20px;
-	font-size: 12px;
-	opacity: 0.7;
+    .header {
+        padding: 20px 20px 0;
+    }
 }
