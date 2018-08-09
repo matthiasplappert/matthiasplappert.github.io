@@ -47,6 +47,7 @@ ul {
 
 ul li {
     list-style: square;
+    padding-bottom: 10px;
 }
 
 .contact {
