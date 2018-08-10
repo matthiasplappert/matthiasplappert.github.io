@@ -77,6 +77,28 @@ ul li {
     padding-right: 0px;
 }
 
+ul.comma-separated {
+    margin: 0;
+    padding: 0;
+    display: inline;
+    list-style: none;
+}
+
+ul.comma-separated li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: inline;
+}
+
+ul.comma-separated li:after {
+  content: ", ";
+}
+
+ul.comma-separated li:last-child:after {
+    content: "";
+}
+
 @media (max-width: 320px) {
     .header .contact {
         font-size: 13px;
