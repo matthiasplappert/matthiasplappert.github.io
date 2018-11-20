@@ -41,6 +41,12 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
 }
 
+.avatar img {
+    width: 169px;
+    height: 169px;
+    border-radius: 85px;
+}
+
 ul {
     padding-left: 20px;
 }
