@@ -29,7 +29,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .header {
-    padding: 20px 20px 0;
+    padding: 20px;
 }
 
 .header p {
@@ -59,7 +59,6 @@ ul li {
     width: 100%;
     text-align: center;
     padding-top: 10px;
-    margin-bottom: 20px;
 }
 
 .contact ul {
@@ -107,6 +106,18 @@ ul.comma-separated li:last-child:after {
 @media (max-width: 320px) {
     .header .contact {
         font-size: 13px;
+    }
+
+    .header .contact li {
+        padding: 0 5px;
+    }
+
+    .contact li:first-child {
+        padding-left: 0;
+    }
+
+    .contact li:last-child {
+        padding-right: 0;
     }
 }
 
