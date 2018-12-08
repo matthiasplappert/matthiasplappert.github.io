@@ -29,8 +29,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .header {
-    padding: 20px 0px 0;
-    padding-top: 20px;
+    padding: 20px;
 }
 
 .header p {
@@ -39,6 +38,12 @@ h1, h2, h3, h4, h5, h6 {
 
 .avatar {
     text-align: center;
+}
+
+.avatar img {
+    width: 169px;
+    height: 169px;
+    border-radius: 85px;
 }
 
 ul {
@@ -54,7 +59,6 @@ ul li {
     width: 100%;
     text-align: center;
     padding-top: 10px;
-    margin-bottom: 20px;
 }
 
 .contact ul {
@@ -103,15 +107,23 @@ ul.comma-separated li:last-child:after {
     .header .contact {
         font-size: 13px;
     }
+
+    .header .contact li {
+        padding: 0 5px;
+    }
+
+    .contact li:first-child {
+        padding-left: 0;
+    }
+
+    .contact li:last-child {
+        padding-right: 0;
+    }
 }
 
 @media (max-width: 768px) {
     .container {
         width: 100%;
-    }
-
-    .avatar {
-        border-bottom: 1px solid rgba(0, 0, 0, 0.2);
     }
 
     h1 {
@@ -124,9 +136,5 @@ ul.comma-separated li:last-child:after {
         margin-top: 100px;
         box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
         margin-bottom: 50px;
-    }
-
-    .header {
-        padding: 20px 20px 0;
     }
 }
