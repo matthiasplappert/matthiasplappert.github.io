@@ -1,98 +1,105 @@
-@import url('https://fonts.googleapis.com/css?family=Maven+Pro');
+@import url("https://fonts.googleapis.com/css?family=Maven+Pro");
 
-html, body {
-    background-color: #f5f5f5;
-    -webkit-font-smoothing: antialiased;
+html,
+body {
+  background-color: #f5f5f5;
+  -webkit-font-smoothing: antialiased;
 }
 
 body {
-    font-family: "Lucida Grande", Helvetica, Verdana, sans-serif;
-    color: #5f5f5f;
+  font-family: "Lucida Grande", Helvetica, Verdana, sans-serif;
+  color: #5f5f5f;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: "Maven Pro", "Lucida Grande", Helvetica, Verdana, sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Maven Pro", "Lucida Grande", Helvetica, Verdana, sans-serif;
 }
 
 .container {
-    background-color: #fff;
-    max-width: 700px;
+  background-color: #fff;
+  max-width: 700px;
 }
 
 .row {
-    padding: 0 20px;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 0 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 .row:last-child {
-    border-bottom: none;
+  border-bottom: none;
 }
 
 .header {
-    padding: 20px;
+  padding: 20px;
 }
 
 .header p {
-    text-align: justify;
+  text-align: justify;
 }
 
 .avatar {
-    text-align: center;
+  text-align: center;
 }
 
 .avatar img {
-    width: 169px;
-    height: 169px;
-    border-radius: 85px;
+  width: 169px;
+  height: 169px;
+  border-radius: 85px;
+  margin-top: 20px;
 }
 
 ul {
-    padding-left: 20px;
+  padding-left: 20px;
 }
 
 ul li {
-    list-style: square;
-    padding-bottom: 10px;
+  list-style: square;
+  padding-bottom: 10px;
 }
 
 .contact {
-    width: 100%;
-    text-align: center;
-    padding-top: 10px;
+  width: 100%;
+  text-align: center;
+  padding-top: 10px;
 }
 
 .contact ul {
-    margin: 0 auto;
-    padding: 0;
+  margin: 0 auto;
+  padding: 0;
 }
 
 .contact li {
-    display: inline-block;
-    padding: 0 10px;
-    border-right: 1px solid #ccc;
+  display: inline-block;
+  padding: 0 10px;
+  border-right: 1px solid #ccc;
 }
 
 .contact li:first-child {
-    padding-left: 0px;
+  padding-left: 0px;
 }
 
 .contact li:last-child {
-    border-right: none;
-    padding-right: 0px;
+  border-right: none;
+  padding-right: 0px;
 }
 
 ul.comma-separated {
-    margin: 0;
-    padding: 0;
-    display: inline;
-    list-style: none;
+  margin: 0;
+  padding: 0;
+  display: inline;
+  list-style: none;
 }
 
 ul.comma-separated li {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: inline;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: inline;
 }
 
 ul.comma-separated li:after {
@@ -100,41 +107,41 @@ ul.comma-separated li:after {
 }
 
 ul.comma-separated li:last-child:after {
-    content: "";
+  content: "";
 }
 
 @media (max-width: 320px) {
-    .header .contact {
-        font-size: 13px;
-    }
+  .header .contact {
+    font-size: 13px;
+  }
 
-    .header .contact li {
-        padding: 0 5px;
-    }
+  .header .contact li {
+    padding: 0 5px;
+  }
 
-    .contact li:first-child {
-        padding-left: 0;
-    }
+  .contact li:first-child {
+    padding-left: 0;
+  }
 
-    .contact li:last-child {
-        padding-right: 0;
-    }
+  .contact li:last-child {
+    padding-right: 0;
+  }
 }
 
 @media (max-width: 768px) {
-    .container {
-        width: 100%;
-    }
+  .container {
+    width: 100%;
+  }
 
-    h1 {
-        text-align: center;
-    }
+  h1 {
+    text-align: center;
+  }
 }
 
 @media (min-width: 768px) {
-    .container {
-        margin-top: 100px;
-        box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
-        margin-bottom: 50px;
-    }
+  .container {
+    margin-top: 100px;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+    margin-bottom: 50px;
+  }
 }
